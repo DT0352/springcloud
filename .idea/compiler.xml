@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_cloud_demo_eureka_service" />
+        <module name="spring_cloud_demo_ribbon_service" />
+        <module name="spring_cloud_demo_security_server" />
+        <module name="spring_cloud_demo_ribbon_producer" />
+        <module name="spring_cloud_demo_common" />
+        <module name="spring_cloud_eureka_client" />
+        <module name="spring_cloud_demo_eureka_client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring_cloud_demo_common" target="1.5" />
+      <module name="spring_cloud_demo_eureka_client" target="1.8" />
+      <module name="spring_cloud_demo_eureka_service" target="1.8" />
+      <module name="spring_cloud_demo_ribbon_producer" target="1.8" />
+      <module name="spring_cloud_demo_ribbon_service" target="1.8" />
+      <module name="spring_cloud_demo_security_server" target="1.8" />
+      <module name="spring_cloud_eureka_client" target="1.8" />
+      <module name="spring_cloud_eureka_server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_cloud_demo_eureka_client" options="-parameters" />
+      <module name="spring_cloud_demo_eureka_service" options="-parameters" />
+      <module name="spring_cloud_demo_ribbon_producer" options="-parameters" />
+      <module name="spring_cloud_demo_ribbon_service" options="-parameters" />
+      <module name="spring_cloud_demo_security_server" options="-parameters" />
+      <module name="spring_cloud_eureka_client" options="-parameters" />
+      <module name="spring_cloud_eureka_server" options="-parameters" />
+    </option>
+  </component>
+</project>

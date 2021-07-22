@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_common/spring_cloud_demo_common.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_common/spring_cloud_demo_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_eureka_client/spring_cloud_demo_eureka_client.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_eureka_client/spring_cloud_demo_eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_eureka_service/spring_cloud_demo_eureka_service.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_eureka_service/spring_cloud_demo_eureka_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/spring_cloud_demo_ribbon_producer.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/spring_cloud_demo_ribbon_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_service/spring_cloud_demo_ribbon_service.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_ribbon_service/spring_cloud_demo_ribbon_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_security_server/spring_cloud_demo_security_server.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_security_server/spring_cloud_demo_security_server.iml" />
+    </modules>
+  </component>
+</project>
