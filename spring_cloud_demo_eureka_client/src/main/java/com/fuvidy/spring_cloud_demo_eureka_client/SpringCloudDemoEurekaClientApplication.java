@@ -8,8 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class SpringCloudDemoEurekaClientApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudDemoEurekaClientApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(SpringCloudDemoEurekaClientApplication.class, args);
+    }
 
 }

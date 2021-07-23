@@ -5,14 +5,13 @@
       <list>
         <option value="$PROJECT_DIR$/spring_cloud_demo_eureka_service/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_eureka_client/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_cloud_demo_security_server/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_common/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_ribbon_service/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

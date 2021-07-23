@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring_cloud_demo_eureka_service" />
         <module name="spring_cloud_demo_ribbon_service" />
-        <module name="spring_cloud_demo_security_server" />
         <module name="spring_cloud_demo_ribbon_producer" />
         <module name="spring_cloud_demo_common" />
         <module name="spring_cloud_eureka_client" />

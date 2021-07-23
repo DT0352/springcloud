@@ -21,7 +21,7 @@ public class UserController {
 
     private Logger LOGGER =  LoggerFactory.getLogger(this.getClass());
 
-    @GetMapping("/create")
+    @PostMapping("/create")
     public ResponseEntity<User> create(@RequestBody User user){
         userService.create(user);
         return new ResponseEntity<User>(HttpStatus.OK);
@@ -30,7 +30,7 @@ public class UserController {
     public ResponseEntity<User> create(@PathVariable Long id){
         User user = userService.getUser(id);
         LOGGER.info("根据id获取用户信息，用户名称为：{}",user.getUsername());
-        return new ResponseEntity<User>(HttpStatus.OK);
+        return ResponseEntity.ok(user);
     }
     @GetMapping("/getUserByIds")
     public ResponseEntity<List<User>> create(@RequestParam List<Long> ids){
