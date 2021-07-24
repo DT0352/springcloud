@@ -27,10 +27,10 @@ public class UserController {
         return new ResponseEntity<User>(HttpStatus.OK);
     }
     @GetMapping("/{id}")
-    public ResponseEntity<User> create(@PathVariable Long id){
+    public User getUser(@PathVariable Long id){
         User user = userService.getUser(id);
         LOGGER.info("根据id获取用户信息，用户名称为：{}",user.getUsername());
-        return ResponseEntity.ok(user);
+        return user;
     }
     @GetMapping("/getUserByIds")
     public ResponseEntity<List<User>> create(@RequestParam List<Long> ids){
