@@ -17,8 +17,8 @@ public class UserController {
     private String userServiceUrl;
 
     @GetMapping("/{id}")
-    public ResponseEntity getUser(@PathVariable Long id) {
-        return restTemplate.getForObject(userServiceUrl + "/user/{1}", ResponseEntity.class, id);
+    public User getUser(@PathVariable Long id) {
+        return restTemplate.getForObject(userServiceUrl + "/user/{1}", User.class, id);
     }
 
     @PostMapping("/create")
