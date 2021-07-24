@@ -27,13 +27,13 @@ public class UserController {
         return new ResponseEntity<User>(HttpStatus.OK);
     }
     @GetMapping("/{id}")
-    public ResponseEntity<User> create(@PathVariable Long id){
+    public ResponseEntity<User> getUser(@PathVariable Long id){
         User user = userService.getUser(id);
         LOGGER.info("根据id获取用户信息，用户名称为：{}",user.getUsername());
         return ResponseEntity.ok(user);
     }
     @GetMapping("/getUserByIds")
-    public ResponseEntity<List<User>> create(@RequestParam List<Long> ids){
+    public ResponseEntity<List<User>> getUsers(@RequestParam List<Long> ids){
         List<User> list = userService.getUserByIds(ids);
         LOGGER.info("根据用户ID查询用户信息{}",list.toString());
         return ResponseEntity.ok(list);
@@ -45,7 +45,7 @@ public class UserController {
         return ResponseEntity.ok(user);
     }
     @PostMapping("/delete/{id}")
-    public ResponseEntity<User> update(@PathVariable Long id){
+    public ResponseEntity<User> delete(@PathVariable Long id){
         User user = userService.delete(id);
         LOGGER.info("修改用户信息{}",user.toString());
         return ResponseEntity.ok(user);

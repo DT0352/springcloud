@@ -7,7 +7,8 @@
         <option value="$PROJECT_DIR$/spring_cloud_demo_eureka_client/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring_cloud_demo_common/pom.xml" />
-        <option value="$PROJECT_DIR$/spring_cloud_demo_ribbon_service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_demo_feign_service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud_demo_zuul_proxy/pom.xml" />
       </list>
     </option>
   </component>

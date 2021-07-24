@@ -5,8 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_common/spring_cloud_demo_common.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_common/spring_cloud_demo_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_eureka_client/spring_cloud_demo_eureka_client.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_eureka_client/spring_cloud_demo_eureka_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_eureka_service/spring_cloud_demo_eureka_service.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_eureka_service/spring_cloud_demo_eureka_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_feign_service/spring_cloud_demo_feign_service.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_feign_service/spring_cloud_demo_feign_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/spring_cloud_demo_ribbon_producer.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/spring_cloud_demo_ribbon_producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_service/spring_cloud_demo_ribbon_service.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_ribbon_service/spring_cloud_demo_ribbon_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud_demo_zuul_proxy/spring_cloud_demo_zuul_proxy.iml" filepath="$PROJECT_DIR$/spring_cloud_demo_zuul_proxy/spring_cloud_demo_zuul_proxy.iml" />
     </modules>
   </component>
 </project>

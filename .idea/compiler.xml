@@ -8,20 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring_cloud_demo_eureka_service" />
-        <module name="spring_cloud_demo_ribbon_service" />
-        <module name="spring_cloud_demo_ribbon_producer" />
-        <module name="spring_cloud_demo_common" />
         <module name="spring_cloud_eureka_client" />
+        <module name="spring_cloud_demo_ribbon_producer" />
         <module name="spring_cloud_demo_eureka_client" />
+        <module name="spring_cloud_demo_zuul_proxy" />
+        <module name="spring_cloud_demo_feign_service" />
+        <module name="spring_cloud_demo_common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring_cloud_demo_common" target="1.5" />
       <module name="spring_cloud_demo_eureka_client" target="1.8" />
       <module name="spring_cloud_demo_eureka_service" target="1.8" />
+      <module name="spring_cloud_demo_feign_service" target="1.8" />
       <module name="spring_cloud_demo_ribbon_producer" target="1.8" />
       <module name="spring_cloud_demo_ribbon_service" target="1.8" />
       <module name="spring_cloud_demo_security_server" target="1.8" />
+      <module name="spring_cloud_demo_zuul_proxy" target="1.8" />
       <module name="spring_cloud_eureka_client" target="1.8" />
       <module name="spring_cloud_eureka_server" target="1.8" />
     </bytecodeTargetLevel>
@@ -31,7 +34,7 @@
       <module name="spring_cloud_demo_eureka_client" options="-parameters" />
       <module name="spring_cloud_demo_eureka_service" options="-parameters" />
       <module name="spring_cloud_demo_ribbon_producer" options="-parameters" />
-      <module name="spring_cloud_demo_ribbon_service" options="-parameters" />
+      <module name="spring_cloud_demo_ribbon_service" options="" />
       <module name="spring_cloud_demo_security_server" options="-parameters" />
       <module name="spring_cloud_eureka_client" options="-parameters" />
       <module name="spring_cloud_eureka_server" options="-parameters" />

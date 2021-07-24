@@ -12,9 +12,10 @@ public class SpringCloudDemoRibbonServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudDemoRibbonServiceApplication.class, args);
     }
+
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate(){
+    public RestTemplate restTemplate() {
         return new RestTemplate();
     }
 

@@ -29,7 +29,7 @@ public class UserController {
 
     @PostMapping("/delete/{id}")
     public ResponseEntity delect(@PathVariable Long id) {
-        return restTemplate.postForObject(userServiceUrl +"/user/delect",null,ResponseEntity.class);
+        return restTemplate.postForObject(userServiceUrl + "/user/delect", null, ResponseEntity.class);
     }
 
 }

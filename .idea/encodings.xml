@@ -4,8 +4,10 @@
     <file url="file://$PROJECT_DIR$/spring_cloud_demo_eureka_client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_cloud_demo_eureka_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_cloud_demo_eureka_service/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring_cloud_demo_feign_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_cloud_demo_feign_service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_producer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring_cloud_demo_ribbon_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_cloud_demo_zuul_proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring_cloud_demo_zuul_proxy/src/main/resources" charset="UTF-8" />
   </component>
 </project>
